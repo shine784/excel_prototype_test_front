@@ -1,0 +1,96 @@
+.cell {
+  box-sizing: border-box;
+  overflow:hidden;
+  position:absolute;
+  text-align:center;
+  font-size:15px;
+  padding:0px;
+  margin:0px;
+  border:1px solid #f3f4f6;
+}
+.resizer{
+  width:4px;
+  float:left;
+  cursor:col-resize;
+  position:absolute;
+  zIndex:10;
+  background-color:orange;
+}
+
+.row {
+  zIndex:0;
+  boxSizing:border-box;
+  width:100%;
+  padding:0px;
+  margin:0px;
+}
+
+.tableview-root .column_list {
+  border-right: 1px solid #f3f4f6;
+}
+
+.thead .column_list{
+  background-color: #6bbbf0;
+}
+.tbody .column_list{
+  background-color: #dde8f7;
+}
+
+
+.resizer:hover {
+  background-color: #b9e4ef;
+}
+.resizer:active {
+  background-color: #007390;
+}
+
+.listview-container {
+  float: left;
+}
+.tableview-container {
+  float: left;
+}
+
+.tbody.flexframe {
+    overflow: auto;
+}
+.tbody.fixframe {
+    overflow:hidden;
+}
+
+.thead.flexframe,.thead.fixframe{
+  overflow:hidden;
+}
+
+.fixframe .listframe{
+  z-index: 5;
+}
+
+.tbody .selected > .column_list {
+  background-color: #a5c8ff;
+}
+.table_wrapper{
+  .position: relative;
+}
+
+.listview-list .rowabove {
+  border-bottom: 1px solid #ffa200;
+}
+
+.viewport {
+  width:100%;
+  box-sizing: border-box;
+  position: absolute;
+}
+.static {
+  width:100%;
+  box-sizing: border-box;
+}
+.listframe {
+  position: relative;
+  width:100%;
+}
+
+.listview-root{
+  overflow-y: hidden;
+}

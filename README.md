@@ -1,2 +1,7 @@
-# excel_prototype_test_front
-excel_prototype_test_front
+Install 
+
+	npm install 
+
+start
+
+    npm run start
