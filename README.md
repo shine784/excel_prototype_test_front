@@ -1,4 +1,4 @@
-# CANVAS GRID TEST ( * without back-end connect * )
+# CANVAS GRID TEST ( * without rest-api connect * )
 
 Install 
 
