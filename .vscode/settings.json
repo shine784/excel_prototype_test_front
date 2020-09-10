@@ -1,0 +1,8 @@
+{
+    "eslint.options": {
+      "configFile": "./conf/eslint.conf.js"
+    },
+    "editor.formatOnSave": true,
+    "eslint.format.enable": true
+  }
+  
