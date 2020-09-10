@@ -1,4 +1,4 @@
-# CANVAS GRID TEST
+# CANVAS GRID TEST ( * without back-end connect * )
 
 Install 
 
@@ -9,5 +9,6 @@ start
     npm run start
     
  
- #url
+#url
+
 https://shine784.github.io/excel_prototype_test_front/
