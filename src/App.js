@@ -35,11 +35,8 @@ class App extends Component {
               <li>
                 <Link to={"/"}>HOME</Link>
               </li>
-              <li>
-                <Link to={"/Excel"}>Excel</Link>
-              </li>
             </ul>
-            <Route path="/Excel" component={ExcelExample} />
+            <Route path="/" component={ExcelExample} />
           </div>
           <GlobalStyle />
         </BrowserRouter>

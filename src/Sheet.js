@@ -19,12 +19,6 @@ export const sheetinfo = React.createContext({});
 class Sheet extends Component {
   constructor(props) {
     super(props);
-    /*this.state = {
-      hpagecnt:[0,1,2],
-      vpagecnt:[0,1,2],
-      hcolumns:new Array(9999).fill(70),
-      vcolumns:new Array(9999).fill(20),
-    };*/
     this.focusgeo = [0,0];
     this.hacc = null;
     this.vacc = null;
@@ -75,8 +69,8 @@ class Sheet extends Component {
        endX:this.endX,
        endY:this.endY,
        sheetArray:this.sheetArray,
-       hcolumns:this.hcolumns,
-       vcolumns:this.vcolumns,
+       hcolumns:hcolumns,
+       vcolumns:vcolumns,
        hacc:this.hacc,
        vacc:this.vacc,
     });
